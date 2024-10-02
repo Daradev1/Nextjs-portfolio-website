@@ -1,8 +1,8 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "About" },
+  { name: "Projects" },
+  { name: "Testimonials" },
+  { name: "Contact" },
 ];
 
 export const gridItems = [
@@ -72,27 +72,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Bainwave AI Chat App",
+    des: "Bainwave is an AI-powered chat app designed to assist users with intelligent and real-time responses. I was responsible for building the app’s frontend, focusing on creating an intuitive and sleek user interface.",
+    img: "/Brainwave.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://ai-chat-landing-page.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "School Website –Almond Compassionate Academy",
+    des: "I developed a modern and responsive website for Almond Compassionate Academy, designed to showcase the school’s programs, values, and community. The site features a clean layout and easy navigation",
+    img: "/Schoolweb.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://almond-compassionate-academy.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Company Quiz App",
+    des: "For this project, I built a dynamic quiz app tailored for a company’s customer engagement strategy. The app allows users to take interactive quizzes and track their scores, providing instant feedback. The app also integrates localStorage to save quiz progress and score data.",
+    img: "/Quiz.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    link: "https://master-frosty-quiz.vercel.app/",
   },
   {
     id: 4,
@@ -100,40 +100,41 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://iphone15-webclone.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Working with Dara felt like collaborating with a friend. He listened to my vision and made it come to life, even better than I imagined. His patience and dedication really stood out, and now my website truly reflects my brand.",
+    name: "Emily S.,",
+    title: "Nonprofit Director",
+  },
+  {
+    quote:
+      "I was nervous about building a website, but Dara made the whole experience stress-free. He took the time to explain everything and made sure every detail was right. It felt like he genuinely cared about my business, which is rare.",
+
+    name: "Angela B.,",
+    title: "Cafe Owner",
+  },
+  {
+    quote:
+      "Dara did an incredible job with the frontend of our Web3 platform. He transformed our ideas into a user-friendly, visually stunning interface that our users love. His attention to detail and ability to work with complex blockchain data made the process smooth and efficient. I couldn’t have asked for a better partner for our frontend development.",
+    name: "Michael J.,",
+    title: " Web3 Startup Founder",
+  },
+  {
+    quote:
+      "Collaborating with Dara was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Dara is the ideal partner.",
+    name: "Ethan R.,",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "What I loved most about working with Dara was his commitment to getting things just right. He didn’t just build a site; he helped me understand how to make it grow. It was more than a service—it felt like a partnership.",
+    name: " Sophia H.,",
+    title: "Fitness Trainer",
   },
 ];
 
@@ -173,22 +174,22 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer -ExchangeIT",
+    desc: "Enhanced the platform's users experience by creating responsive interface with react js and modern UI libraries and also Implimented API intergration for real time cryptocurrency rates and secure transaction",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Wordpress dev -MasterFrosty",
+    desc: "managed ongoing maintenance, updates, and improvements to ensure site performance and security and also ultilized SEO to optimise the website visibility and search engine ranking",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Projects",
+    desc: "Developed multiple web applications for diffrent clients, from initial concept to deployment",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },

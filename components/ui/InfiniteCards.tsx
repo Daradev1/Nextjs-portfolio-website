@@ -116,7 +116,41 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
+                  {idx === 0 && (
+                    <img
+                      src="/woman1.jpg"
+                      alt="profile"
+                      style={{ width: 70, borderRadius: 20 }}
+                    />
+                  )}
+                  {idx === 1 && (
+                    <img
+                      src="/Angela.jpg"
+                      alt="profile"
+                      style={{ width: 70, borderRadius: 20 }}
+                    />
+                  )}
+                  {idx === 2 && (
+                    <img
+                      src="/man2.jpg"
+                      alt="profile"
+                      style={{ width: 70, borderRadius: 20 }}
+                    />
+                  )}
+                  {idx === 3 && (
+                    <img
+                      src="/man1.jpeg"
+                      alt="profile"
+                      style={{ width: 70, borderRadius: 20 }}
+                    />
+                  )}
+                  {idx === 4 && (
+                    <img
+                      src="/woman2.jpeg"
+                      alt="profile"
+                      style={{ width: 50, borderRadius: 20 }}
+                    />
+                  )}
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}

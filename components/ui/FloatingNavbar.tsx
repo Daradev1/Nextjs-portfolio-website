@@ -1,12 +1,13 @@
 "use client";
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import {
   motion,
   AnimatePresence,
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
-import Link from "next/link";
+// import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 export const FloatingNav = ({
@@ -15,7 +16,7 @@ export const FloatingNav = ({
 }: {
   navItems: {
     name: string;
-    link: string;
+    link?: string;
     icon?: JSX.Element;
   }[];
   className?: string;
@@ -73,8 +74,10 @@ export const FloatingNav = ({
       >
         {navItems.map((navItem: any, idx: number) => (
           <Link
-            key={`link=${idx}`}
-            href={navItem.link}
+            to={navItem.name}
+            offset={idx === 0 ? 0 : -70}
+            key={idx}
+            // href={navItem.link}
             className={cn(
               "relative dark:text-neutral-50 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
